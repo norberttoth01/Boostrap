@@ -7,7 +7,14 @@ header {
 }
 
 .firstText {
-    padding: 25px;
+    text-align: center;
+    font-size: 18pt;
+}
+@media(min-width:992px) {
+    .firstText {
+        text-align: left;
+        font-size: 20pt;
+    }   
 }
 
 .startButton {
@@ -30,9 +37,10 @@ header {
 }
 
 .img-1 {
+    padding-top:40px;
     display: block;
-    margin: 40px auto;
-    width: 60%;
+    margin: 50px auto;
+    width: 50%;
     height: auto;
 }
 
@@ -70,3 +78,74 @@ header {
 .features{
     margin: 20px 5px;
 } 
+.stop-waiting-section {
+    min-height: 60vh;
+    padding: 150px 0;
+    background: url('/img/bg-cta.jpg') no-repeat center center;
+    box-shadow: inset 0 0 0 4096px rgba(0, 0, 0, .25);
+    background-size: cover;
+}
+.custom-facebook-icon{
+    background: #3b5998;
+}
+.custom-twitter-icon{
+    background: #00acee;
+}
+.custom-google-plus-icon{
+    background: #db4a39;
+}
+.social {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    text-align: center;
+}
+.custom-facebook-icon i,
+.custom-twitter-icon i,
+.custom-google-plus-icon i {
+    color: #fff;
+    line-height: 80px;
+}
+.social-icons-section{
+    padding: 40px;
+    background: #fdcc52;;
+}
+.footer-section{
+    background: rgb(54, 53, 53);
+    color:rgba(255, 255, 255, 0.836)
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Catamaran, Helvetica, Arial, sans-serif;
+}
+footer {
+    font-family: Muli, Helvetica, Arial, sans-serif;
+}
+.heart{
+    color:red;
+}
+#main-menu.scrolled-nav {
+    background: #fff;
+}
+
+#main-menu.scrolled-nav .nav-item {
+    color: #000;
+}
+.mobile{
+    text-align:center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+@media(min-width:992px) {
+    .mobile{
+        margin-top: 0;
+    }
+}
+html {
+    scroll-behavior: smooth;
+  }
