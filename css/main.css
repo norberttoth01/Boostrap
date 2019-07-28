@@ -16,18 +16,40 @@ header {
         font-size: 20pt;
     }   
 }
+.nav-butt{
+    color: #fff;
+    text-transform: uppercase;
+}
+.nav-butt:hover{
+    color: #fdcc52;
+}
+.startBoot {
+    color: #fdcc52;
+}
+.startBoot:hover {
+    color: #fff;
+}
 
+.stop-waiting{
+    font-size: 240%;
+}
+.letsButton,
 .startButton {
-    font-size: 60%;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-size: 100%;
     padding: 10px 20px;
     background: transparent;
     border: 1px solid #fff;
     border-radius: 30px;
+    transition: color 300ms, border-color 300ms;
 }
-
+.letsButton:hover,
 .startButton:hover {
+    color: #fdcc52;
     border: 1px solid #fdcc52;
 }
+
 
 .center {
     display: flex;
@@ -63,9 +85,6 @@ header {
 .discover-bottom {
     margin-bottom: 10%;
 }
-.unlimited{
-
-}
 .img-2 {
     display: block;
     margin: 40px auto;
@@ -100,6 +119,10 @@ header {
     height: 80px;
     border-radius: 100%;
     text-align: center;
+    opacity: 0.9;
+}
+.social:hover{
+    opacity: 1;
 }
 .custom-facebook-icon i,
 .custom-twitter-icon i,
@@ -123,6 +146,7 @@ h5,
 h6 {
     font-family: Catamaran, Helvetica, Arial, sans-serif;
 }
+p,
 footer {
     font-family: Muli, Helvetica, Arial, sans-serif;
 }
@@ -133,7 +157,10 @@ footer {
     background: #fff;
 }
 
-#main-menu.scrolled-nav .nav-item {
+#main-menu.scrolled-nav .nav-butt {
+    color: #000;
+}
+#main-menu.scrolled-nav .startBoot:hover {
     color: #000;
 }
 .mobile{
@@ -141,9 +168,19 @@ footer {
     margin-top: 50px;
     margin-bottom: 30px;
 }
+.nav-back{
+    background: #fff;
+}
 @media(min-width:992px) {
     .mobile{
         margin-top: 0;
+    }
+    .nav-back{
+        background: transparent;
+    }
+    .startButton{
+        position: relative;
+        left:-20px;
     }
 }
 html {
