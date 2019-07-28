@@ -95,9 +95,6 @@ header {
 .mobile{
     color: purple;
 }
-.features{
-    margin: 20px 5px;
-} 
 .stop-waiting-section {
     min-height: 60vh;
     padding: 150px 0;
@@ -133,7 +130,7 @@ header {
 }
 .social-icons-section{
     padding: 40px;
-    background: #fdcc52;;
+    background: #fdcc52;
 }
 .footer-section{
     background: rgb(54, 53, 53);
@@ -161,6 +158,10 @@ footer {
 #main-menu.scrolled-nav .nav-butt {
     color: #000;
 }
+#main-menu.scrolled-nav .nav-butt:hover {
+    color: #fdcc52;
+}
+
 #main-menu.scrolled-nav .startBoot:hover {
     color: #000;
 }
