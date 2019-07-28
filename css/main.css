@@ -1,5 +1,5 @@
 header {
-    background: url('/img/bg-pattern.png'), linear-gradient(to right, #d92431, #b43058);
+    background: url('/img/bg-pattern.png'), linear-gradient(to right, #d92431, #b32ab3);
 }
 
 .fa.fa-navicon {
@@ -9,6 +9,7 @@ header {
 .firstText {
     text-align: center;
     font-size: 18pt;
+    margin-top:100px;
 }
 @media(min-width:992px) {
     .firstText {
@@ -185,4 +186,11 @@ footer {
 }
 html {
     scroll-behavior: smooth;
+  }
+  .footer-text{
+    color:#aaa;
+  }
+  .footer-text:hover{
+      color: #fdcc52;
+      text-decoration: none
   }
